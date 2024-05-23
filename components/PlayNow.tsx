@@ -98,6 +98,7 @@ const items = [
          
           <Swiper
           spaceBetween={30}
+          
           slidesPerView={2}
           pagination={
             {
@@ -120,7 +121,7 @@ const items = [
                 </div>
                 <div className="flex items-center justify-center">
                   <Link href={item.link}>
-                    <button className="bg-sky-500 hover:bg-sky-700">View Project</button>
+                    <button className=" hover:bg-sky-700">View Project</button>
                   </Link>
                 </div>
                 <div className="flex items-center justify-center">

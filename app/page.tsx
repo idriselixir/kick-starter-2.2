@@ -6,7 +6,6 @@ import GameOn from "@/components/GameOn";
 import Footer from "@/components/Footer";
 
 
-
 export default function Home() {
   return (
     <ThirdwebProvider supportedWallets={[metamaskWallet(), coinbaseWallet()]} clientId="4982c0edd5cdb1f6ac928f6a9fd7c895" activeChain={Sepolia}>
